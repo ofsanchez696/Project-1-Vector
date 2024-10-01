@@ -25,6 +25,10 @@ template<typename T> class Inventory{
                 std::cout<<std::left << std::setw(20)<<items[i].name<<std::setw(15)<<items[i].expiration<<std::setw(15)<<items[i].quantity<<std::setw(15)<<items[i].category<<std::endl;
             }
         }
+
+        void addNewItem(std::vector<std::string) {
+            
+        }
 };
 template<typename T>class Appointment{
     public: 
